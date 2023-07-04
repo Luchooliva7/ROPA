@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "poppins" sans-serif;
+}
+
+header {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  height: 65px;
+  position: fixed;
+  width: 100%;
+  font-family: "poppins";
+}
+
+.navbar-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  gap: 5rem;
+}
+
+.navbar-list {
+  gap: 1rem;
+}
+
+.navbar-list a {
+  color: black;
+  font-size: 14px;
+}
+
+.navbar-list li:first-child > a {
+  font-weight: 600;
+  color: blue;
+}
+
+.logo {
+  width: 100px;
+  height: 60px;
+}
+
+.cart-icon {
+  padding: 5 10px;
+  height: 30px;
+  cursor: pointer;
+}
+
+main {
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: white;
+}
+
+#hero {
+  max-width: 1200px;
+  margin-top: 65px;
+  padding: 70px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 50%;
+}
+
+.hero-info h1 {
+  font-size: 48px;
+  font-weight: 800;
+  min-width: 500px;
+  width: 80%;
+}
+
+.hero-info p {
+  font-size: 14px;
+  width: 70%;
+  color: white;
+  font-family: "poppins";
+}
+
+.hero-info b {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.hero-info a {
+  color: blanchedalmond;
+  background: blueviolet;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.info-pag {
+  background: rgb(87, 86, 86);
+  display: flex;
+  padding: 15px 100px;
+  width: 70%;
+  border-radius: 15px;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+  font-family: "poppins";
+}
+
+.botones {
+  margin: 1rem 1rem;
+  font-family: "poppins";
+}
+
+.modelo {
+  height: 500px;
+  border-radius: 15px;
+}
+
+.btn1 {
+  margin-right: 50px;
+}

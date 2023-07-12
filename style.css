@@ -163,7 +163,7 @@ main {
   background: var(--secondary);
   width: 300px;
   height: 290px;
-  padding: 40px 30px;
+  padding: 41px 30px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
